@@ -2,10 +2,9 @@ import React from 'react'
 import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './stranice/index';
+import Home from './stranice/pocetna';
 import Contact from './stranice/contact';
-import SignUp from './stranice/sign-up';
-
+import UlogujSe from './stranice/UlogujSe';
 
 function App() {
   return (
@@ -15,7 +14,7 @@ function App() {
         
         <Route path='/home' component={Home} />
         <Route exact path= "/contact" component={Contact} />
-        <Route path='/sign-up' component={SignUp} />
+        <Route path='/ulogujse' component={{UlogujSe}.openModal} />
       </Switch>
     </Router>
   );

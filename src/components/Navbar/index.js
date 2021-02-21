@@ -5,8 +5,8 @@ import {
   NavMenu,
   Bars,
   NavBtn,
-  NavBtnLink
 } from './NavbarElements'; 
+import UlogujSe from '../../stranice/UlogujSe'
 
 const Navbar = () => {
   return (
@@ -23,14 +23,9 @@ const Navbar = () => {
           <NavLink to='/contact' activeStyle>
             Contact 
           </NavLink>
-          <NavLink to='/sign-up' activeStyle>
-            Sign Up
-          </NavLink>
-          {/* Second Nav */}
-          {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
         <NavBtn>
-          <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+            <UlogujSe></UlogujSe>
         </NavBtn>
       </Nav>
     </>

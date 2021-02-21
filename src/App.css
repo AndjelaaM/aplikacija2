@@ -10,12 +10,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
- /*  font-family: 'Lo', sans-serif; */
 }
  
-.home,
-.contact,
-.sign-up {
+
+.contact {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -23,17 +21,9 @@
   font-size: 3rem;
 }
  
-.pocetna {
- /*  background-image: url('../../public/images/slika1.jpg'); */
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
- 
+
 .contact {
- /*  background-image: url('../../public/images/slika1.jpg'); */
+
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -42,7 +32,6 @@
 }
  
 .ulogujse {
-  /* background-image: url('../../public/images/slika1.jpg'); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

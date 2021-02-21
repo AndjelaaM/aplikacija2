@@ -1,0 +1,81 @@
+.row li {
+    width: 33.3%;
+    float: left;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family:'Open Sans', sans-serif;
+}
+
+.text-center {
+    text-align:center;
+}
+
+h3 {
+    line-height:30px;
+    padding-bottom:20px;
+    color:#f2f8f8;
+}
+
+
+p {
+    font-weight:300;
+    line-height:30px;
+    padding-bottom:15px;
+}
+
+.space-free {
+    height:100px;
+}
+
+section {
+    padding-top:50px;
+    margin-top:50px;
+}
+
+#home-sec { 
+  
+    
+    background: url("https://www.10wallpaper.com/wallpaper/1366x768/1606/Palm_tree_beach_sunny-Summer_Scenery_HD_Wallpaper_1366x768.jpg") no-repeat 50% 50%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+     padding-top:190px;
+       min-height:650px;
+        color:#fff;
+    }
+
+    .head-main {
+        font-size:50px ;
+        font-weight:900;
+        border:5px outset  #fff;
+        padding:15px;
+        text-transform:uppercase;
+        
+    }
+    
+    .head-last {
+         margin-top:70px;
+        font-size:18px ;
+        font-weight:900;
+        padding:5px 20px 20px 20px;
+      
+        padding:5px;
+    }
+
+    .g-pad-bottom {
+        padding-bottom:30px;
+    }
+    
+    .form-control {
+            background-color: rgba(255, 255, 255, 0);
+    }
+    
+    .label-danger {
+    font-size: 18px;
+    }
